@@ -1,3 +1,0 @@
-recursive-include js/jquerytools/resources *.*
-recursive-include js/jquerytools *.txt
-include *.txt
