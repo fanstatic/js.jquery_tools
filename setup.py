@@ -10,6 +10,7 @@ import os
 
 version = '1.2.7'
 
+
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
@@ -30,7 +31,7 @@ setup(
     author='Fanstatic Developers',
     author_email='fanstatic@googlegroups.com',
     license='BSD',
-    packages=find_packages(),namespace_packages=['js'],
+    packages=find_packages(), namespace_packages=['js'],
     include_package_data=True,
     zip_safe=False,
     setup_requires=['hgtools'],
@@ -38,10 +39,10 @@ setup(
         'fanstatic',
         'js.jquery',
         'setuptools',
-        ],
+    ],
     entry_points={
         'fanstatic.libraries': [
             'jquery_tools = js.jquery_tools:library',
-            ],
-        },
-    )
+        ],
+    },
+)
