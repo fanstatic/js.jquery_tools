@@ -1,6 +1,13 @@
 CHANGES
 *******
 
+1.2.7 (2012-08-22)
+==================
+
+- Update to jQuery Tools 1.2.7, released 2012-03-28 (`release notes`_).
+
+.. _`release notes`: http://jquerytools.org/release-notes/version-1.2.x.html#1.2.7
+
 1.2.6 (2012-08-22)
 ==================
 
